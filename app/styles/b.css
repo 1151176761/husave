@@ -1,0 +1,18 @@
+.b:hover{
+  -webkit-animation: dese .75s linear infinite;
+  -moz-animation: dese .75s linear infinite;
+  -ms-animation: dese .75s linear infinite;
+  -o-animation: dese .75s linear infinite;
+  animation: dese .75s linear infinite;
+}
+@keyframes dese{
+  0% { transform: rotate(-12deg); } /* 添加旋转角度，以下类似 */
+  20% { transform: rotate(8deg); }
+  30% { transform: rotate(6deg); }
+  40% { transform: rotate(3deg); }
+  55% { transform: rotate(0deg); }
+  70% { transform: rotate(-4deg); }
+  80% { transform: rotate(7deg); }
+  90% { transform: rotate(-8deg); }
+  90% { transform: rotate(12deg); }
+}
